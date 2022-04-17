@@ -23,7 +23,7 @@ jobs:
     - name: checkout result
       uses: actions/checkout@v2
       with:
-        repository: 'clverpanda/clverpanda.github.io'
+        repository: 'lurenJBD/lurenJBD.github.io'
         fetch-depth: 0
         token: ${{ secrets.ACCESS_TOKEN }}
         path: './result'
